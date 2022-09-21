@@ -1,0 +1,94 @@
+@media(min-width: 768px) {
+   .modal .modal-dialog{
+      min-width: 720px;
+   }
+}
+
+.modal-content {
+   background: #f1f1f1;
+   padding: 20px;
+}
+
+.modal-content .modal-body .content-card {
+   background: #fff;
+   padding: 25px 15px;
+   margin-bottom: 15px;
+}
+
+.modal-content .modal-body .content-card.user-mart{
+   text-align: center;
+}
+
+.modal-content .modal-body .content-card.user-mart .m-card{
+   padding: 25px 0 10px;
+   background: #f1f1f1;
+   height: 100%;
+   position: relative;
+}
+
+.modal-content .modal-body .content-card.user-mart .m-card img{
+   position: absolute;
+   left: 50%;
+   transform: translateX(-50%);
+   top: -22px;
+}
+
+.modal-content .modal-body .content-card a {
+   text-decoration: none;
+   color: #9c9c9c;
+   font-family: 'Poppins', sans-serif;
+   font-size: 16px;
+   font-weight: 500;
+}
+
+.modal-content .modal-body .content-card .nav-heading {
+   text-decoration: none;
+   color: #006e85;
+   font-family: 'Poppins', sans-serif;
+   font-size: 22px;
+   font-weight: 700;
+}
+
+.modal-content .modal-body .content-card .nav-heading.yellow {
+   color: #ffb635;
+}
+
+.modal-content .modal-body .content-card .button-custom {
+   width: 100%;
+   background: #006e85;
+   color: #fff;
+   padding: 10px;
+}
+
+.modal-content .modal-body .content-card .button-custom.yellow {
+   background: #ffb635;
+
+}
+
+.border-left-m {
+   border-left: 6px solid #006e85
+}
+
+.w-max{
+   min-width: 40%;
+}
+
+@media(max-width: 767px) {
+   .modal-content {
+      padding: 20px;
+   }
+
+   .modal-content .modal-body .content-card {
+      padding: 20px 12px;
+      margin-bottom: 10px;
+   }
+
+   .modal-content .modal-body .content-card a {
+      font-size: 14px;
+   }
+
+   .modal-content .modal-body .content-card .nav-heading {
+      font-size: 16px;
+   }
+
+}

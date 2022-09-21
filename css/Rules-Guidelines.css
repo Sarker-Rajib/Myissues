@@ -1,0 +1,239 @@
+.container {
+    max-width: 1199px;
+    margin: auto;
+}
+
+@media(min-width: 768px) {
+    .container {
+        padding: 0 22px;
+    }
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* css for header */
+/* .header{
+
+} */
+.rules-and-guidlines {
+    background: #f5f5f5;
+}
+
+
+.border-bottom-m {
+    border-bottom: 1px solid #69acb8;
+}
+
+.border-top-m {
+    border-top: 1px solid #69acb8;
+}
+
+.terms-link{
+    text-decoration: none;
+    color: #006f85;
+}
+
+.rules-and-guidlines .contact-us {
+    padding: 40px 0px 40px;
+}
+
+.rules-and-guidlines .contact-us .wrapper {
+    padding: 40px 25px;
+    border: 2px solid #006f85;
+    border-radius: 6px;
+}
+
+.rules-and-guidlines .contact-us .image {
+    padding-right: 10px;
+}
+
+.rules-and-guidlines .contact-us img {
+    width: 156px;
+}
+
+.rules-and-guidlines .contact-us .description h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #0b0b0b;
+}
+
+.rules-and-guidlines .contact-us .description p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: #4a4a4a;
+}
+
+.rules-and-guidlines .contact-btn {
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+    background: #006f85;
+    padding: 12px 20px;
+}
+
+.rules-and-guidlines .section-card {
+    padding-bottom: 40px;
+}
+
+.rules-and-guidlines .section-card .content-wrapper {
+    background-color: #ffffff;
+    box-shadow: 0px 0px 8px 0.32px #00000052;
+    padding: 35px 15px;
+}
+
+.rules-and-guidlines .section-card .content-wrapper .main-heading {
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    color: #000000;
+    margin: 0;
+    padding-bottom: 25px;
+}
+
+.rules-and-guidlines .section-card .content-wrapper .sub-heading {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #0b0b0b;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+
+.rules-and-guidlines .section-card .content-wrapper p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #4a4a4a;
+    margin: 0;
+    padding-bottom: 25px;
+}
+
+.rules-and-guidlines .section-card .content-wrapper .contact-head .user {
+    border-left: 5px solid #006f85;
+}
+
+.rules-and-guidlines .section-card .content-wrapper .color-list {
+    color: #006f85;
+}
+
+.rules-and-guidlines .section-card .content-wrapper .color-list li {
+    color: #006f85;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    padding-bottom: 10px;
+}
+
+.rules-and-guidlines .section-card .content-wrapper label {
+    color: #006f85;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+.rules-and-guidlines .bottom p {
+    color: #4a4a4a;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    padding: 0;
+    margin: 0;
+}
+
+.rules-and-guidlines .bottom a {
+    color: #4a4a4a;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    padding: 0;
+    margin: 0;
+}
+
+.rules-and-guidlines .bottom img {
+    margin-right: 10px;
+}
+
+@media(max-width: 767px) {
+
+    .rules-and-guidlines .contact-us {
+        padding: 28px 0px 25px;
+    }
+
+    .rules-and-guidlines .contact-us .wrapper {
+        padding: 25px;
+    }
+
+    .rules-and-guidlines .contact-us .image {
+        padding-right: 10px;
+    }
+
+    .rules-and-guidlines .contact-us img {
+        max-width: 100px;
+    }
+
+    .rules-and-guidlines .contact-us .description h2 {
+        font-size: 15px;
+        margin: 0;
+    }
+
+    .rules-and-guidlines .contact-us .description p {
+        font-size: 14px;
+    }
+
+    .rules-and-guidlines .contact-btn {
+        font-size: 14px;
+        padding: 10px 15px;
+    }
+
+    .rules-and-guidlines .section-card {
+        padding-bottom: 25px;
+    }
+
+    .rules-and-guidlines .section-card .content-wrapper {
+        padding: 16px 10px;
+    }
+
+    .rules-and-guidlines .section-card .content-wrapper .main-heading {
+        font-size: 21px;
+        padding-bottom: 15px;
+    }
+
+    .rules-and-guidlines .section-card .content-wrapper .sub-heading {
+        font-size: 16px;
+        padding-top: 10px;
+        padding-bottom: 15px;
+    }
+
+    .rules-and-guidlines .section-card .content-wrapper p {
+        font-size: 16px;
+        padding-bottom: 20px;
+    }
+
+    .rules-and-guidlines .section-card .content-wrapper .color-list ol li, .rules-and-guidlines .section-card .content-wrapper .color-list ul li {
+        font-size: 14px;
+        padding-bottom: 10px;
+    }
+
+    .rules-and-guidlines .section-card .content-wrapper label {
+        font-size: 16px;
+        padding-bottom: 10px;
+    }
+
+    .rules-and-guidlines .bottom p {
+        font-size: 14px;
+    }
+
+    .rules-and-guidlines .bottom a {
+        font-size: 14px;
+    }
+    .rules-and-guidlines .bottom img {
+        max-width: 15px;
+    }
+}
